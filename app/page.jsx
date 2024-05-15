@@ -1,11 +1,13 @@
-import React from 'react'
-
-export const metadata={
-  title:'Home'
-}
+import Hero from '@/components/Hero';
+import HomeProperties from '@/components/HomeProperties';
+import InfoBoxes from '@/components/InfoBoxes';
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <>
+    <Hero/>
+    <InfoBoxes/>
+    <HomeProperties/>
+    </>
   )
 }
 
